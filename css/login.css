@@ -1,0 +1,124 @@
+*{
+	padding:0;
+	margin:0;
+}
+html{
+	/*height:100%;*/
+}
+body{
+	width:100%;
+	/*height:100%;*/
+	/*background:-webkit-linear-gradient(top,#b0d1ff,#649ff2);*/
+	background:#649ff2; 
+}
+.bk{
+	width: 8.05rem;
+	height: 10.45rem;
+	background: #FFFFFF;
+	margin-top: 3.55rem;
+	margin-left: 0.96rem;
+	border-radius:0.1rem;
+}
+.outside_photo{
+	width: 3.2rem;
+	height: 3.2rem;
+	border-radius: 3.2rem;
+	border:0.05rem solid #ffffff;
+	position: absolute;
+	top:2.43rem;
+	left:3.36rem; 
+}
+.inner_photo{
+	width: 2.61rem;
+	height: 2.61rem;
+	border-radius: 2.61rem;
+	margin-top: 0.27rem;
+	margin-left: 0.27rem;
+}
+.inner_photo>img{
+	width: 2.61rem;
+	height: 2.61rem;
+	border-radius: 2.61rem;
+}
+.bk_phone>input{
+	display: inline-block;
+	width: 5.8rem;
+	height: 1.33rem;
+	margin-top: 2.7rem;
+	margin-left: 1.15rem;
+	border: 0.03rem solid #ddd;
+	border-radius: 0.65rem;
+	font-size: 0.37rem;
+	text-align: center;
+}
+.bk_pwd>input{
+	display: inline-block;
+	width: 5.8rem;
+	height: 1.33rem;
+	margin-top: 0.48rem;
+	margin-left: 1.15rem;
+	border: 0.03rem solid #ddd;
+	border-radius: 0.65rem;
+	font-size: 0.37rem;
+	text-align: center;
+}
+.bk_login>input{
+	display: inline-block;
+	width: 5.8rem;
+	height: 1.33rem;
+	margin-top: 1.06rem;
+	margin-left: 1.15rem;
+	border: 0.03rem solid #ddd;
+	border-radius: 0.65rem;
+	font-size: 0.37rem;
+	text-align: center;
+}
+.bk_other span:nth-child(1){
+	font-size: 0.32rem;
+	display: inline-block;
+	margin-left: 1.15rem;
+	margin-top: 0.67rem;
+}
+.bk_other span:nth-child(2){
+	font-size: 0.32rem;
+	display: inline-block;
+	margin-left: 3.2rem;
+	margin-top: 0.67rem;
+	color: #649ff2;
+}
+.t_offer{
+	width: 8.05rem;
+	height: 0.026667rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 1.333333rem;
+	position: relative;
+}
+.offer{
+	position: absolute;
+	width: 1.946667rem;
+	left:3.066667rem;
+	top:-0.173333rem;
+	color: #ffffff;
+	background: #649ff2;
+	text-align: center;
+	font-size: 0.32rem;
+}
+.icon{
+	margin: 0 auto;
+	width: 6.2rem;
+	margin-top: 0.613333rem;
+	font-size:0;
+	height: 2.4rem;
+}
+.icon>img{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-left: 0.0rem;
+}
+.icon>img:nth-child(2){
+	margin-left: 1.333333rem;
+}
+.icon>img:nth-child(3){
+	margin-left: 1.253333rem;
+}
