@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<keywords></keywords>
+	<description></description>
+	<script src="js/index.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+	<div class="head">
+		<img src="images/chat.png">
+		<span>首页</span>
+		<img src="images/search.png">
+	</div>
+	<div class='banneroutside' id='banneroutside'>
+		<div class='banner' id='banner'>
+			<img src="images/banner1.png">	
+			<img src="images/banner2.png">	
+			<img src="images/banner3.png">	
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	let bannerNumber = 3;
+	// let bannerWidth = 672px;
+	let banner = document.getElementById("banner");
+	let banneroutside = document.getElementById("banneroutside");
+	let bannerWidth = bannerNumber*8.96 + (bannerNumber-1)*0.266667;
+	// console.log(bannerWidth);
+	banneroutside.style.width = '10rem';
+	banneroutside.style.overflow="scroll";
+	// banner.style.marginLeft = '0.266667rem';
+	banner.style.width = bannerWidth+'rem';
+	
+	// banner.style.width = '2000px';
+</script>
