@@ -4,24 +4,23 @@
 }
 body{
      width: 10rem;
+     background: #ecf2fe;
 }
 .head{
 	background: #649ff2;
-    height: 1.706667rem;
+    height: 1.253333rem;
 }
 .head>img{
 	width: 0.48rem;
 	height: 0.48rem;
-	margin-top: 0.906667rem;
+	margin-top: 0.453333rem;
 	font-size: 0;
 }
 .head>img:nth-child(1){
-	/*margin-left: 0.4rem;*/
 	float: left;
 	margin-left: 0.4rem;
 }
 .head>img:nth-child(3){
-	/*margin-left: 3.68rem;*/
 	float: right;
 	margin-right: 0.4rem;
 }
@@ -29,14 +28,105 @@ body{
 	font-size: 0.48rem;
 	color: #ffffff;
 	margin-left: 3.68rem;
-	margin-top: 0.85rem;
+	margin-top: 0.4rem;
 	display: inline-block;
-}
-.banner{
-	margin-top: 0.373333rem;
 }
 .banner>img{
 	width:8.933333rem;
-	height: 2.826667rem;
+	height: 3.76rem;
 }
 .banneroutside::-webkit-scrollbar { width: 0 !important }
+.banneroutside{
+	margin-top: 0.373333rem;
+}
+.category>img{
+	width: 1.466667rem;
+	height: 2.0rem;
+	margin-top: 0.533333rem;
+}
+.category>img:nth-child(1){
+	margin-left: 0.373333rem;
+}
+.category>img:nth-child(2){
+	margin-left: 0.826667rem;
+}
+.category>img:nth-child(3){
+	margin-left: 0.826667rem;
+}
+.category>img:nth-child(4){
+	margin-left: 0.826667rem;
+}
+.category{
+	width: 9.2rem;
+	height: 3.066667rem;
+	font-size: 0;
+	margin:0 auto;
+	background: #ffffff;
+	border-radius: 0.266667rem;
+	margin-bottom: 0.56rem;
+}
+.recommend{
+	width: 9.2rem;
+	background: #ffffff;
+	border-radius: 0.266667rem;
+	margin:0 auto;
+	font-size: 0;
+}
+.verticleLine{
+	margin-top: 0.413333rem;
+	height: 0.533333rem;
+	width: 0.026667rem;
+	background: #8abaff;
+	margin-left: 0.373333rem;
+	display: inline-block;
+}
+.recommendWords{
+	margin-top: 0.413333rem;
+	font-size: 0.373333rem;
+	color: #8abaff;
+	display: inline-block;
+	margin-left: 0.16rem;
+}
+.recommendChildverticlemiddle{
+	vertical-align: middle;
+}
+.point span{
+	height: 0.093333rem;
+	width: 0.093333rem;
+	background: #666666;
+	border-radius: 0.093333rem;
+	display: inline-block;
+}
+.point{
+	margin-top: 0.413333rem;
+	display: inline-block;
+	margin-left: 7.066667rem;
+	}
+.point span:nth-child(2){
+	margin-left: 0.093333rem;
+}
+.point span:nth-child(3){
+	margin-left: 0.093333rem;
+}
+.productImg>img{
+	height: 3.093333rem;
+	width: 4.053333rem;
+}
+.recommendProduct{
+	margin-top: 0.373333rem;
+	/*width: 8.56rem;*/
+	/*margin:0 auto;*/
+}
+.productName{
+	font-size: 0.373333rem;
+	color: #8abaff;
+}
+.productShare{
+	font-size: 0.293333rem;
+	color: #999999;
+}
+.product{
+	/*float: left;*/
+	margin-left: 0.373333rem;
+	display: inline-block;
+}
