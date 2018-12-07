@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background: #ffffff;
+}
+.splashscreenwords{
+	height: 6.226667rem;
+	width: 1.666667rem;
+	/*margin-top: 2.853333rem；*/
+	/*margin:0 auto;*/
+	margin:2.853333rem auto 1.52rem auto;
+}
+.splashscreenwords>img{
+	height: 6.226667rem;
+	width: 1.666667rem;
+}
+.splashscreenpic{
+	height: 4.0rem;
+	width: 4.0rem;
+	/*margin-top: 1.52rem;*/
+	margin:0 auto;
+}
+.splashscreenpic>img{
+	height: 4.0rem;
+	width: 4.0rem;
+}

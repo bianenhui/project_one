@@ -37,6 +37,7 @@ body{
 }
 .banneroutside::-webkit-scrollbar { width: 0 !important }
 .banneroutside{
+	-webkit-overflow-scrolling: touch;
 	margin-top: 0.373333rem;
 }
 .category>img{
@@ -129,4 +130,44 @@ body{
 	/*float: left;*/
 	margin-left: 0.373333rem;
 	display: inline-block;
+	margin-bottom: 0.426667rem;
+}
+.bottomBar{
+	background: #ffffff;
+	height: 1.2rem;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 0;
+}
+.bottomBar>img{
+	width: 0.586667rem;
+	height: 0.586667rem;
+}
+.bottomBar>img:nth-child(1){
+	margin-left: 0.666667rem;
+	margin-top: 0.293333rem;
+}
+.bottomBar>img:nth-child(2){
+	margin-left: 1.253333rem;
+	margin-top: 0.293333rem;
+}
+.bottomBar>img:nth-child(3){
+	margin-left: 3.853333rem;
+	margin-top: 0.293333rem;
+}
+.bottomBar>img:nth-child(4){
+	margin-left: 1.253333rem;
+	margin-top: 0.293333rem;
+}
+.up{
+	position: fixed;
+	bottom: 0;
+	height: 1.466667rem;
+	width: 1.466667rem;
+	left: 4.24rem;
+}
+.up>img{
+	height: 1.466667rem;
+	width: 1.466667rem;
 }
