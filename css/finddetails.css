@@ -1,0 +1,183 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	background: #ebf2fe;
+}
+.head{
+	background: #7aaffa;
+    height: 2.56rem;
+}
+.head>img{
+	width: 0.28rem;
+	height: 0.48rem;
+	margin-top: 0.52rem;
+	font-size: 0;
+}
+.head>img:nth-child(1){
+	float: left;
+	margin-left: 0.4rem;
+}
+.head>span{
+	font-size: 0.48rem;
+	color: #ffffff;
+	margin-left: 3.68rem;
+	margin-top: 0.52rem;
+	display: inline-block;
+}
+.personalintroduce{
+	width: 9.48rem;
+	height: 3.853333rem;
+	background: #ffffff;
+	margin: -1.12rem auto 0 auto;
+	border-radius: 0.16rem;
+	border:0.013333rem solid #ffffff;
+
+}
+.keyword{
+	margin-top: 0.586667rem;
+	width: 6.666667rem;
+	height: 0.4rem;
+	margin-left: 0.066667rem;
+}
+.keyword>ul>li{
+	list-style: none;
+	font-size: 0.426667rem;
+	color: #222222;
+	float: left;
+	margin-left: 0.386667rem;
+}
+.headsculpture{
+	width: 8.533333rem;
+	height: 0.853333rem;
+	font-size: 0;
+	/*margin-top: ;*/
+	margin:0.386667rem auto 0 auto;
+}
+.finddetailsphoto{
+	float: left;
+}
+.finddetailsphoto>img{
+	width: 0.853333rem;
+	height: 0.853333rem;
+}
+.namedata{
+	float: left;
+	margin-left: 0.186667rem;
+}
+.finddetailsname>span{
+	font-size: 0.373333rem;
+	color: #84b8fc;
+}
+.finddetailsdata>span{
+	font-size: 0.266667rem;
+	color: #999999;
+}
+.button{
+	margin-top: 0.173333rem;
+	float: right;
+}
+.button>input{
+	width: 1.04rem;
+	height: 0.48rem;
+	border-radius: 0.106667rem;
+	background: #4a87da;
+	color: #ffffff;
+	font-size: 0.293333rem;
+	display: inline-block;
+}
+.introduceword{
+	margin-top: 0.266667rem;
+	margin-left: 0.44rem;
+	letter-spacing: 0.026667rem;
+}
+.introduceword>span{
+	font-size: 0.373333rem;
+	color: #666666;
+}
+.banner>img{
+	width: 8.56rem;
+	height: 6.133333rem;
+}
+.banneroutside::-webkit-scrollbar { width: 0 !important }
+.banneroutside{
+	-webkit-overflow-scrolling: touch;
+	margin-top: 0.4rem;
+}
+.details{
+	width: 9.48rem;
+	height: 4.146667rem;
+	font-size: 0;
+	margin:0.32rem auto 0 auto; 
+	background: #ffffff;
+	border: 0.013333rem solid #ffffff;
+}
+.detailstitle{ 
+	width: 8.8rem;
+	height: 0.533333rem;
+	margin:0.4rem auto 0 auto;
+    font-size: 0;
+}
+.line{
+	float: left;
+	background: #8abaff;
+	width: 0.026667rem;
+	height: 0.533333rem;
+	display: inline-block;
+}
+.xijie>span{
+	float: left;
+	font-size: 0.373333rem;
+	color: #8abaff;
+	margin-left: 0.16rem;
+}
+.detailsimg{
+	width: 8.8rem;
+	height: 1.44rem;
+	margin:0.226667rem auto 0 auto;
+    font-size: 0;
+    display: inline-block;
+}
+.detailsimg>div>img{
+	height: 1.44rem;
+	width: 1.92rem;
+}
+.readnumber{
+	font-size: 0.293333rem;
+	color: #999999;
+	line-height: 0.373333rem;
+}
+.detail{
+	height: 0.373333rem;
+	width: 1.92rem;
+	margin-top: 0.493333rem;
+	font-size: 0;
+}
+.like{
+	height: 0.373333rem;
+	width: 0.373333rem;
+	margin-right: 0.133333rem;
+}
+.verticlemiddle{
+	vertical-align: middle;
+	display: inline-block;
+}
+.verticleline{
+	margin-left: 0.746667rem;
+}
+
+.detailsimg>div{
+	float: left;
+	width: 1.92rem;
+}
+.detailsimg>div:nth-child(1){
+	margin-right: 0.373333rem;
+}
+.detailsimg>div:nth-child(2){
+	margin-right: 0.373333rem;
+}
+.detailsimg>div:nth-child(3){
+	margin-right: 0.373333rem;
+}
